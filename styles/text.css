@@ -1,0 +1,53 @@
+p{
+  font-family:Roboto; /*setting all text to Arial*/
+  margin-top:0px;
+  margin-bottom:0px;
+}
+.video-title{
+  font-weight:bold;
+  font-size:18px;
+  width:280px;
+  line-height:24px;   /*setting gap between lines*/
+  margin-bottom:5px;
+}
+.video-stats{
+  font-size:14px;
+  color:rgb(96,96,96);
+
+
+}
+.video-author{
+  color:rgb(96,96,96);
+  font-size:14px;
+  margin-top:12px;
+  margin-bottom:20px;
+}
+.video-description{
+  font-size:14px;
+  color: rgb(96,96,96);
+  width:280px;
+  line-height:20px;
+  margin-bottom:100px;
+}
+.apple-text{
+  margin-bottom: 50px;
+  font-size:14px;
+  background-color: rgb(227, 65, 64);
+  color:white;
+  text-align:center;
+  padding-top:18px;
+  padding-bottom:18px;
+}
+.span-example{          /*we can give class to particular text in paragrah*/
+    color:red;
+    margin-left:40px;  /*if we want more space*/
+}
+.span-example:hover{
+  text-decoration:underline;
+}
+.shop-link{
+  cursor:pointer;
+}
+.shop-link:hover{
+  text-decoration: underline;
+}
